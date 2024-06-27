@@ -8,10 +8,10 @@
   },
   "author": "Nazarii Dzhaman",
   "license": "ISC",
-  "dependencies": {
-    "inquirer": "^9.2.23"
-  },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.6"
   }
 }
