@@ -6,7 +6,7 @@ export class FfmpegBuilder {
         this.options.set('-c:v', 'libx264');
     }
 
-    input(inputPath: string) {
+    input(inputPath: string): any {
         this.inputPath = inputPath;
     }
 

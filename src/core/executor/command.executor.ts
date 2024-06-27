@@ -12,6 +12,6 @@ export abstract class CommandExecutor<Input> {
     }
     protected abstract prompt(): Promise<Input>;
     protected abstract build(input: Input): ICommandExec;
-    protected abstract spawn(command: any): ChildProcessWithoutNullStreams;
+    protected abstract spawn(command: ICommandExec): ChildProcessWithoutNullStreams;
     protected abstract processStream(stream: ChildProcessWithoutNullStreams, logger: IStreamLogger): void;
 }
