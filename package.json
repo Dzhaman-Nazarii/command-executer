@@ -9,7 +9,8 @@
   "author": "Nazarii Dzhaman",
   "license": "ISC",
   "devDependencies": {
-    "@types/inquirer": "^9.0.7"
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.9"
   },
   "dependencies": {
     "inquirer": "^8.2.6"
